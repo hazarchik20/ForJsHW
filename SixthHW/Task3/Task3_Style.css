@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    padding: 40px;
+}
+.container {
+    padding: 40px;
+    line-height: 1.6;
+}
+.hide {
+    display: none;
+}
