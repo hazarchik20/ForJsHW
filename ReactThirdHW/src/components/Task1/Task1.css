@@ -1,0 +1,116 @@
+
+.main-wrapper {
+  min-width: 450px; 
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  font-family: Arial, sans-serif; 
+  margin: 20px;
+}
+
+.main-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.date-text {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.schedules-list {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.schedule-item {
+  display: flex;
+  padding-bottom: 20px; 
+  padding-top: 10px;
+  position: relative; 
+}
+
+
+.timeline-marker-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px; 
+  position: relative;
+  width: 15px; 
+}
+
+.timeline-line {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px; 
+  height: 100%;
+  border-radius: 2px;
+}
+
+.timeline-dot {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 4px solid #fff; 
+  z-index: 1; 
+}р
+
+
+.schedule-item:last-child .timeline-line {
+  height: 10px; 
+}
+
+
+.time-info {
+  width: 80px;
+  flex-shrink: 0;
+}
+
+.time {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+.duration {
+  font-size: 12px;
+  color: #888;
+  margin: 0;
+}
+
+.subject-info {
+  flex-grow: 1;
+}
+
+.subject-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+.classroom {
+  font-size: 14px;
+  color: #555;
+  margin: 2px 0;
+}
+
+.teacher {
+  font-size: 14px;
+  color: #555;
+  margin: 2px 0;
+}
+
