@@ -1,0 +1,26 @@
+.product-filter {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+
+  select {
+    margin: 15px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+
+  button {
+    padding: 6px 14px;
+    border-radius: 6px;
+    border: none;
+    background: #4f46e5;
+    color: #fff;
+    cursor: pointer;
+
+    &:hover {
+      background: #4338ca;
+    }
+  }
+}

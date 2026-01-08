@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="AllStyle.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="MainAddBT">Add User</button>
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Add user</h2>
+                <button class="btn-close" id="btnClose">&times;</button>
+            </div>
+            <form id="carForm">
+                <div>
+                    <label for="user-name">user name:</label>
+                    <input type="text" id="user-name" name="user-name" required>
+                    <span class="error-message"></span>
+                </div>
+                <div>
+                    <label for="user-email">email:</label>
+                    <input type="email" id="user-email" name="user-email" required>
+                    <span class="error-message"></span>
+                </div>
+                <div>
+                    <label for="user-password">user password:</label>
+                    <input type="password" id="user-password" name="user-password" required>
+                    <span class="error-message"></span>
+                </div>
+                <div>
+                    <label for="user-password-repeate">repeate password:</label>
+                    <input type="password" id="user-password-repeate" name="user-password-repeate" required>
+                    <span class="error-message"></span>
+                </div>
+                <button type="submit">Save user</button>
+            </form>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
